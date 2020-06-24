@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     tools {
-        maven "Maven 4.6.3"
+        maven "Maven 3.6.3"
     }
     stages {
         stage('Build Hello-world') {
